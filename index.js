@@ -38,5 +38,5 @@ function getBranches(el) {
 };
 
 function displayBranches() {
-  
+
 }
