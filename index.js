@@ -38,5 +38,6 @@ function getBranches(el) {
 };
 
 function displayBranches() {
-
+  const branches = JSON.parse(this.responseText);
+  const branchesList = `${branches.map(b => b.name)}`
 }
